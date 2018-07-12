@@ -10,10 +10,21 @@ All notable changes to this project will be documented in this file.
 N/A
 
 #### Enhancements
-N/A
+
+- Allow to create new `compound` animation by code using operator `+`, or `Array` . [#559](https://github.com/IBAnimatable/IBAnimatable/pull/559) by [@phimage](https://github.com/phimage)
+- Add new activity indicators `circleStrokeSpin`, `circleDashStrokeSpin`, `gear`, `tripleGear`,  `heartBeat`  and  `triforce`. [#561](https://github.com/IBAnimatable/IBAnimatable/pull/561) by [@phimage](https://github.com/phimage)
+- Add new activity indicator `rupee`. [#562](https://github.com/IBAnimatable/IBAnimatable/pull/562) by [@phimage](https://github.com/phimage)
+- Make AnimatableCollectionViewCell conforming to RotationDesignable [#565](https://github.com/IBAnimatable/IBAnimatable/pull/565) by [@tbaranes](https://github.com/tbaranes)
+- Add `preferred` presentation modal size. [#566](https://github.com/IBAnimatable/IBAnimatable/pull/566) by [@phimage](https://github.com/phimage)
+- Add `conical` gradient type. [#567](https://github.com/IBAnimatable/IBAnimatable/pull/567) by [@phimage](https://github.com/phimage)
+- Animatable `timingFunction` parameter could now be used with all animation types. [#571](https://github.com/IBAnimatable/IBAnimatable/pull/571) by [@phimage](https://github.com/phimage)
+- Add new activity indicators `newtonCradle` and `circlePendulum`. [#573](https://github.com/IBAnimatable/IBAnimatable/pull/573) by [@phimage](https://github.com/phimage)
+- Add new mask `rounded` to  make a rounded rectangle. [#575](https://github.com/IBAnimatable/IBAnimatable/pull/575) by [@phimage](https://github.com/phimage)
+- Support for Swift 4.2. [#576](https://github.com/IBAnimatable/IBAnimatable/pull/576) by [@djbe](https://github.com/djbe)
 
 #### Bugfixes
-N/A
+
+- Fix some activity indicator animations . [#562](https://github.com/IBAnimatable/IBAnimatable/pull/562) by [@phimage](https://github.com/phimage)
 
 ### [5.1.0](https://github.com/IBAnimatable/IBAnimatable/releases/tag/5.1.0)
 
@@ -31,6 +42,7 @@ N/A
 - Add `spin` animation type. [#549](https://github.com/IBAnimatable/IBAnimatable/pull/549) by [@phimage](https://github.com/phimage)
 - Add `insetBy` mask type. [#554](https://github.com/IBAnimatable/IBAnimatable/pull/554) by [@phimage](https://github.com/phimage)
 - Upgrade to Swift 4.1. [#557](https://github.com/IBAnimatable/IBAnimatable/pull/557) by [@JakeLin](https://github.com/JakeLin)
+- Add `ib` to support IBAnimatable without interface builder. [#528](https://github.com/IBAnimatable/IBAnimatable/pull/528) by [@tbaranes](https://github.com/tbaranes)
 
 #### Bugfixes
 - Zoom out animation won't override view alpha [#545](https://github.com/IBAnimatable/IBAnimatable/pull/545) by [@tbaranes](https://github.com/tbaranes)

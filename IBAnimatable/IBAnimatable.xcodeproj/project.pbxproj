@@ -23,8 +23,19 @@
 		3676E7DD2059457A0003B9DF /* AnimatableTextView.swift in Headers */ = {isa = PBXBuildFile; fileRef = E27FD2371ECD7D8A00F74840 /* AnimatableTextView.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		3676E7DE2059457A0003B9DF /* AnimatableView.swift in Headers */ = {isa = PBXBuildFile; fileRef = E27FD2381ECD7D8A00F74840 /* AnimatableView.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		3676E7DF2059457A0003B9DF /* DesignableNavigationBar.swift in Headers */ = {isa = PBXBuildFile; fileRef = E27FD2391ECD7D8A00F74840 /* DesignableNavigationBar.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		48A167122063CD0D00D7BCFB /* ConicalGradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A167112063CD0D00D7BCFB /* ConicalGradientLayer.swift */; };
 		48D80DCA20403DAC00D3137B /* AnimatableTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D80DC920403DAC00D3137B /* AnimatableTabBarItem.swift */; };
+		C40AE6A220E6210100B24A44 /* ActivityIndicatorAnimationNewtonCradle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40AE6A120E6210100B24A44 /* ActivityIndicatorAnimationNewtonCradle.swift */; };
+		C414765F209C1BD700945C8B /* ActivityIndicatorAnimationTripleGear.swift in Sources */ = {isa = PBXBuildFile; fileRef = C414765E209C1BD700945C8B /* ActivityIndicatorAnimationTripleGear.swift */; };
+		C41A0E80209A39660069555A /* ActivityIndicatorAnimationHeartBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41A0E7F209A39660069555A /* ActivityIndicatorAnimationHeartBeat.swift */; };
+		C41A0E82209A3C1B0069555A /* ActivityIndicatorAnimationTriforce.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41A0E81209A3C1B0069555A /* ActivityIndicatorAnimationTriforce.swift */; };
 		C4511F371F93F1B2002E0FAF /* UIBezierPathExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4511F361F93F1B2002E0FAF /* UIBezierPathExtension.swift */; };
+		C456071F209BAACB002B1DF4 /* ActivityIndicatorAnimationCircleDashStrokeSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C456071E209BAACB002B1DF4 /* ActivityIndicatorAnimationCircleDashStrokeSpin.swift */; };
+		C46DC3E12099863A00501E63 /* ActivityIndicatorAnimationCircleStrokeSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46DC3E02099863A00501E63 /* ActivityIndicatorAnimationCircleStrokeSpin.swift */; };
+		C46DC3E32099895E00501E63 /* ActivityIndicatorAnimationGear.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46DC3E22099895E00501E63 /* ActivityIndicatorAnimationGear.swift */; };
+		C489AD1E20E640B300273B77 /* ActivityIndicatorAnimationCirclePendulum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C489AD1D20E640B300273B77 /* ActivityIndicatorAnimationCirclePendulum.swift */; };
+		C49C08DD20A05072002FCAFD /* ActivityIndicatorAnimationRupee.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49C08DC20A05072002FCAFD /* ActivityIndicatorAnimationRupee.swift */; };
+		DD98209320F4A3CC0058D5FE /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD98209220F4A3CC0058D5FE /* SwiftSupport.swift */; };
 		E20DAEB82003662900BE1C88 /* GradientMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20DAEB72003662900BE1C88 /* GradientMode.swift */; };
 		E20DAEBA2003682F00BE1C88 /* RadialGradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20DAEB92003682F00BE1C88 /* RadialGradientLayer.swift */; };
 		E2561F5F1ECD7DD900A6D853 /* IBAnimatable.h in Headers */ = {isa = PBXBuildFile; fileRef = E2561F5D1ECD7DD900A6D853 /* IBAnimatable.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -32,7 +43,6 @@
 		E27FD02C1ECD7BCE00F74840 /* ColorTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27FD0121ECD7BCE00F74840 /* ColorTypeTests.swift */; };
 		E27FD02D1ECD7BCE00F74840 /* StringCornerDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27FD0141ECD7BCE00F74840 /* StringCornerDesignable.swift */; };
 		E27FD02E1ECD7BCE00F74840 /* StringFillDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27FD0151ECD7BCE00F74840 /* StringFillDesignable.swift */; };
-		E27FD02F1ECD7BCE00F74840 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E27FD0171ECD7BCE00F74840 /* Info.plist */; };
 		E27FD0301ECD7BCE00F74840 /* CornerDesignableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27FD0191ECD7BCE00F74840 /* CornerDesignableTests.swift */; };
 		E27FD0311ECD7BCE00F74840 /* FillDesignableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27FD01A1ECD7BCE00F74840 /* FillDesignableTests.swift */; };
 		E27FD0321ECD7BCE00F74840 /* PaddingDesignableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27FD01B1ECD7BCE00F74840 /* PaddingDesignableTests.swift */; };
@@ -219,8 +229,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		48A167112063CD0D00D7BCFB /* ConicalGradientLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConicalGradientLayer.swift; sourceTree = "<group>"; };
 		48D80DC920403DAC00D3137B /* AnimatableTabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableTabBarItem.swift; sourceTree = "<group>"; };
+		C40AE6A120E6210100B24A44 /* ActivityIndicatorAnimationNewtonCradle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationNewtonCradle.swift; sourceTree = "<group>"; };
+		C414765E209C1BD700945C8B /* ActivityIndicatorAnimationTripleGear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationTripleGear.swift; sourceTree = "<group>"; };
+		C41A0E7F209A39660069555A /* ActivityIndicatorAnimationHeartBeat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationHeartBeat.swift; sourceTree = "<group>"; };
+		C41A0E81209A3C1B0069555A /* ActivityIndicatorAnimationTriforce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationTriforce.swift; sourceTree = "<group>"; };
 		C4511F361F93F1B2002E0FAF /* UIBezierPathExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBezierPathExtension.swift; sourceTree = "<group>"; };
+		C456071E209BAACB002B1DF4 /* ActivityIndicatorAnimationCircleDashStrokeSpin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationCircleDashStrokeSpin.swift; sourceTree = "<group>"; };
+		C46DC3E02099863A00501E63 /* ActivityIndicatorAnimationCircleStrokeSpin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationCircleStrokeSpin.swift; sourceTree = "<group>"; };
+		C46DC3E22099895E00501E63 /* ActivityIndicatorAnimationGear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationGear.swift; sourceTree = "<group>"; };
+		C489AD1D20E640B300273B77 /* ActivityIndicatorAnimationCirclePendulum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationCirclePendulum.swift; sourceTree = "<group>"; };
+		C49C08DC20A05072002FCAFD /* ActivityIndicatorAnimationRupee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorAnimationRupee.swift; sourceTree = "<group>"; };
+		DD98209220F4A3CC0058D5FE /* SwiftSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSupport.swift; sourceTree = "<group>"; };
 		E20DAEB72003662900BE1C88 /* GradientMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientMode.swift; sourceTree = "<group>"; };
 		E20DAEB92003682F00BE1C88 /* RadialGradientLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialGradientLayer.swift; sourceTree = "<group>"; };
 		E2561F5D1ECD7DD900A6D853 /* IBAnimatable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBAnimatable.h; sourceTree = "<group>"; };
@@ -591,6 +612,15 @@
 				E27FD1AA1ECD7D8A00F74840 /* ActivityIndicatorAnimationSemiCircleSpin.swift */,
 				E27FD1AB1ECD7D8A00F74840 /* ActivityIndicatorAnimationSquareSpin.swift */,
 				E27FD1AC1ECD7D8A00F74840 /* ActivityIndicatorAnimationTriangleSkewSpin.swift */,
+				C46DC3E02099863A00501E63 /* ActivityIndicatorAnimationCircleStrokeSpin.swift */,
+				C46DC3E22099895E00501E63 /* ActivityIndicatorAnimationGear.swift */,
+				C414765E209C1BD700945C8B /* ActivityIndicatorAnimationTripleGear.swift */,
+				C41A0E7F209A39660069555A /* ActivityIndicatorAnimationHeartBeat.swift */,
+				C41A0E81209A3C1B0069555A /* ActivityIndicatorAnimationTriforce.swift */,
+				C456071E209BAACB002B1DF4 /* ActivityIndicatorAnimationCircleDashStrokeSpin.swift */,
+				C49C08DC20A05072002FCAFD /* ActivityIndicatorAnimationRupee.swift */,
+				C40AE6A120E6210100B24A44 /* ActivityIndicatorAnimationNewtonCradle.swift */,
+				C489AD1D20E640B300273B77 /* ActivityIndicatorAnimationCirclePendulum.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -672,6 +702,7 @@
 			isa = PBXGroup;
 			children = (
 				E27FD1CF1ECD7D8A00F74840 /* Constants.swift */,
+				DD98209220F4A3CC0058D5FE /* SwiftSupport.swift */,
 				E27FD1D01ECD7D8A00F74840 /* Typealias.swift */,
 			);
 			path = Common;
@@ -735,6 +766,7 @@
 			children = (
 				E27FD1F31ECD7D8A00F74840 /* AnimationChainable.swift */,
 				E20DAEB92003682F00BE1C88 /* RadialGradientLayer.swift */,
+				48A167112063CD0D00D7BCFB /* ConicalGradientLayer.swift */,
 				E2AD5F862020AE3800832382 /* IB.swift */,
 			);
 			path = Others;
@@ -986,7 +1018,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E27FD02F1ECD7BCE00F74840 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1024,6 +1055,7 @@
 				E27FD2931ECD7D8A00F74840 /* UIViewControllerExtension.swift in Sources */,
 				E27FD2C71ECD7D8A00F74840 /* AnimatableCheckBox.swift in Sources */,
 				E27FD29F1ECD7D8A00F74840 /* GradientDesignable.swift in Sources */,
+				48A167122063CD0D00D7BCFB /* ConicalGradientLayer.swift in Sources */,
 				E27FD2B01ECD7D8A00F74840 /* AnimatedTransitioning.swift in Sources */,
 				E27FD2841ECD7D8A00F74840 /* GradientStartPoint.swift in Sources */,
 				E27FD27D1ECD7D8A00F74840 /* ActivityIndicatorType.swift in Sources */,
@@ -1034,6 +1066,7 @@
 				E27FD2B31ECD7D8A00F74840 /* DismissSegue.swift in Sources */,
 				E27FD2D01ECD7D8A00F74840 /* AnimatableTextField.swift in Sources */,
 				E27FD2C31ECD7D8A00F74840 /* PresentTurnWithDismissInteractionSegue.swift in Sources */,
+				DD98209320F4A3CC0058D5FE /* SwiftSupport.swift in Sources */,
 				E27FD26F1ECD7D8A00F74840 /* NatGeoAnimator.swift in Sources */,
 				E27FD2761ECD7D8A00F74840 /* AnimatableModalViewController.swift in Sources */,
 				E27FD2901ECD7D8A00F74840 /* Utils.swift in Sources */,
@@ -1068,15 +1101,18 @@
 				E27FD25F1ECD7D8A00F74840 /* PresentationPresenter.swift in Sources */,
 				C4511F371F93F1B2002E0FAF /* UIBezierPathExtension.swift in Sources */,
 				E27FD28F1ECD7D8A00F74840 /* TransitionType.swift in Sources */,
+				C40AE6A220E6210100B24A44 /* ActivityIndicatorAnimationNewtonCradle.swift in Sources */,
 				E27FD2CF1ECD7D8A00F74840 /* AnimatableTableViewCell.swift in Sources */,
 				E27FD2821ECD7D8A00F74840 /* ColorType.swift in Sources */,
 				E27FD2641ECD7D8A00F74840 /* PanInteractiveAnimator.swift in Sources */,
+				C46DC3E12099863A00501E63 /* ActivityIndicatorAnimationCircleStrokeSpin.swift in Sources */,
 				E27FD23E1ECD7D8A00F74840 /* ActivityIndicatorAnimationBallClipRotatePulse.swift in Sources */,
 				E27FD2811ECD7D8A00F74840 /* BorderType.swift in Sources */,
 				E27FD2491ECD7D8A00F74840 /* ActivityIndicatorAnimationBallScaleRippleMultiple.swift in Sources */,
 				E27FD28C1ECD7D8A00F74840 /* PresentationModalSize.swift in Sources */,
 				E27FD27A1ECD7D8A00F74840 /* AnimatableTableViewController.swift in Sources */,
 				48D80DCA20403DAC00D3137B /* AnimatableTabBarItem.swift in Sources */,
+				C41A0E80209A39660069555A /* ActivityIndicatorAnimationHeartBeat.swift in Sources */,
 				E27FD2A91ECD7D8A00F74840 /* SideImageDesignable.swift in Sources */,
 				E27FD2A31ECD7D8A00F74840 /* PlaceholderDesignable.swift in Sources */,
 				E27FD2681ECD7D8A00F74840 /* DropDownAnimator.swift in Sources */,
@@ -1117,6 +1153,7 @@
 				E27FD2CC1ECD7D8A00F74840 /* AnimatableSlider.swift in Sources */,
 				E27FD2481ECD7D8A00F74840 /* ActivityIndicatorAnimationBallScaleRipple.swift in Sources */,
 				E27FD2781ECD7D8A00F74840 /* AnimatablePresentationController.swift in Sources */,
+				C41A0E82209A3C1B0069555A /* ActivityIndicatorAnimationTriforce.swift in Sources */,
 				E27FD2B51ECD7D8A00F74840 /* PresentExplodeSegue.swift in Sources */,
 				E27FD2D21ECD7D8A00F74840 /* AnimatableView.swift in Sources */,
 				E27FD2691ECD7D8A00F74840 /* ZoomAnimator.swift in Sources */,
@@ -1137,6 +1174,7 @@
 				E27FD29B1ECD7D8A00F74840 /* BorderDesignable.swift in Sources */,
 				E27FD27F1ECD7D8A00F74840 /* BlurEffectStyle.swift in Sources */,
 				E27FD24E1ECD7D8A00F74840 /* ActivityIndicatorAnimationCubeTransition.swift in Sources */,
+				C414765F209C1BD700945C8B /* ActivityIndicatorAnimationTripleGear.swift in Sources */,
 				E27FD2B81ECD7D8A00F74840 /* PresentFlipSegue.swift in Sources */,
 				E27FD2CA1ECD7D8A00F74840 /* AnimatableLabel.swift in Sources */,
 				E27FD2B91ECD7D8A00F74840 /* PresentFlipWithDismissInteractionSegue.swift in Sources */,
@@ -1148,10 +1186,12 @@
 				E27FD23C1ECD7D8A00F74840 /* ActivityIndicatorAnimationBallClipRotate.swift in Sources */,
 				E27FD2B21ECD7D8A00F74840 /* ViewControllerAnimatedTransitioning.swift in Sources */,
 				E27FD2501ECD7D8A00F74840 /* ActivityIndicatorAnimationLineScaleParty.swift in Sources */,
+				C456071F209BAACB002B1DF4 /* ActivityIndicatorAnimationCircleDashStrokeSpin.swift in Sources */,
 				E27FD2A71ECD7D8A00F74840 /* RotationDesignable.swift in Sources */,
 				E27FD2771ECD7D8A00F74840 /* AnimatableNavigationController.swift in Sources */,
 				E27FD2431ECD7D8A00F74840 /* ActivityIndicatorAnimationBallPulseSync.swift in Sources */,
 				E27FD2591ECD7D8A00F74840 /* ActivityIndicatorFactory.swift in Sources */,
+				C49C08DD20A05072002FCAFD /* ActivityIndicatorAnimationRupee.swift in Sources */,
 				E27FD25C1ECD7D8A00F74840 /* ContainerTransition.swift in Sources */,
 				E27FD2451ECD7D8A00F74840 /* ActivityIndicatorAnimationBallRotateChase.swift in Sources */,
 				E27FD25D1ECD7D8A00F74840 /* InteractiveAnimatorFactory.swift in Sources */,
@@ -1169,9 +1209,11 @@
 				E27FD2C21ECD7D8A00F74840 /* PresentTurnSegue.swift in Sources */,
 				E27FD2611ECD7D8A00F74840 /* TransitionPresenter.swift in Sources */,
 				E27FD28D1ECD7D8A00F74840 /* TimingFunctionType.swift in Sources */,
+				C46DC3E32099895E00501E63 /* ActivityIndicatorAnimationGear.swift in Sources */,
 				E20DAEBA2003682F00BE1C88 /* RadialGradientLayer.swift in Sources */,
 				E27FD2CB1ECD7D8A00F74840 /* AnimatableScrollView.swift in Sources */,
 				E27FD2C41ECD7D8A00F74840 /* AnimatableActivityIndicatorView.swift in Sources */,
+				C489AD1E20E640B300273B77 /* ActivityIndicatorAnimationCirclePendulum.swift in Sources */,
 				E27FD2911ECD7D8A00F74840 /* CALayerExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1348,7 +1390,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -1368,7 +1410,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -1381,7 +1423,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ibanimatable.IBAnimatableTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -1394,7 +1436,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ibanimatable.IBAnimatableTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};

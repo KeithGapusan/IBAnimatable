@@ -104,6 +104,8 @@ To use `IBAnimatable`, we can drag and drop a UIKit element and connect it with 
 * `drop`
 * `plussign`: Can also specify the thickness of the plus sign, e.g. use `Plussign(10)` to have a plug sign with 10 as thickness.
 * `moon`: Can also specify the angle to change the Moon shape.
+* `insetBy`: Must use the parameters to defined the inset for the inner rectangle e.g. use `insetBy(10, 12)`.
+* `rounded`: Choose the radius to define the corner radius, eg. use `rounded(10)`. Can also specify the `CornerSides` to choose rouned the corner, eg. use `rounded(10, topLeft)`.
 * `custom`: Allows you to use your own bezier path as mask. Only usable from code (not from IB). You have to pass in parameter a closure that takes a `CGSize` (the current's view Size) and returns the `UIBezierPath`
 
 
@@ -227,7 +229,7 @@ refreshControl?.addTarget(self, action: #selector(refresh(_:)), for: .valueChang
 | damping | CGFloat | Used in UIView Spring animation (0 ~ 1 seconds). To smoothly decelerate the animation without oscillation, use a value of 1. Employ a damping ratio closer to zero to increase oscillation. The default value is 0.7. Notice: FadeOutIn, FadeInOut, Shake, Pop, Morph, Squeeze, Flash, Wobble and Swing animations do not use damping. |
 | velocity | CGFloat | used in UIView Spring animation. A value of 1 corresponds to the total animation distance traversed in one second. For example, if the total animation distance is 200 points and you want the start of the animation to match a view velocity of 100 pt/s, use a value of 0.5. The default is 0.7. Notice: FadeOutIn, FadeInOut, Shake, Pop, Morph, Squeeze, Flash, Wobble and Swing animations do not use damping. |
 | force | CGFloat | used to apply force to the animation. The number is higher, the animation property has more changes. e.g. for Pop animation, the higher force causes the view popping bigger. The default value is 1. |
-| timingFunction | TimingFunctionType | used to specifies the speed curve of an animation (not working with Spring animation). The default value is `none`. |
+| timingFunction | TimingFunctionType | used to specifies the speed curve of an animation. For Spring animation only `linear`, `easeIn`, `easeOut` and `easeInOut` could be used and `velocity` and `damping` parameters will be ignored. The default value is `none`. |
 | repeatCount | Float | Used to specify the count to repeat the animation. Can only be used in Shake, Pop, Morph, Squeeze, Flash, Wobble, Swing, Rotate and RotateCCW (rotate counterclockwise) animations. The default value is 1.  |
 | x | CGFloat | Used to specify the absolute x to move in `MoveTo` animation and x offset in `MoveBy`. When used in `MoveBy`, negative means moving left and positive means moving right. The default value is `CGFloat.NaN` |
 | y | CGFloat | Used to specify the absolute y to move in `MoveTo` animation and y offset in `MoveBy`. When used in `MoveBy`, negative means moving up and positive means moving down. The default value is `CGFloat.NaN`|
